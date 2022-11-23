@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head><title>Create Account</title>
+    <style>
+        
+div{ 
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+    width: 400px;
+}
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+body
+        {
+            background-image:url('mahi.jpg');
+        }
+        .vertical-menu {
+  width: 300px;
+  height: 700px;
+  overflow-y: auto;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 14px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+        h1
+        {
+            font-size: 45px;
+            color:white;
+        }
+    </style>   
+</head>
+<body>
+    <div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">Create Account</a>
+  <a href="#">Delete Account</a>
+  <a href="#">Update Account</a>
+  <a href="#">Get All Account Details</a>
+  <a href="#">Get single Account Details</a>
+  <a href="#">Deposit Amount</a>
+  <a href="#">Withdraw Amount</a>
+  <a href="#">Transfer Funds</a>
+  <a href="#">Statement</a>
+</div>
+<div>
+<form>
+    <div class="topright">
+ <label for="num">From Account Number:</label>
+  <input type="text" id="num" name="num" value=""><br><br>
+        <label for="numb">To Account Number:</label>
+  <input type="text" id="numb" name="numb" value=""><br><br>
+        <label for="number">Enter Amount to Transfer:</label>
+  <input type="text" id="number" name="number" value=""><br><br>
+    <button>Transfer</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button>Reset</button>
+    </div> </form> </div>
+</body>
+</html>
